@@ -47,7 +47,7 @@ namespace _102210247_LeVanTienDat
                 anh.Checked = s.anh;
                 hocba.Checked = s.hocba;
                 cccd.Checked = s.cccd;
-
+                textname.Enabled = false;
             }
         }
         private void cancel_Click(object sender, EventArgs e)
